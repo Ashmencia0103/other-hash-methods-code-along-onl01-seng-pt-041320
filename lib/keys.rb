@@ -10,6 +10,6 @@ groceries = {
 
 def get_the_keys(groceries)
   #code your solution here!
-groceries.values
+groceries.values.flatten 
 binding.pry
 end
